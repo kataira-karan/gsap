@@ -1,0 +1,59 @@
+.bottom-card-container{
+    width: 33.33vw;
+    height: 50vh;
+    position: relative;
+    visibility: hidden;
+    background-color: black;
+    overflow: hidden;
+}
+
+.bottom-card-image-container{
+    height: 100%;
+    width: 100%;
+}
+
+.bottom-card-image-container::after{
+    content:  "";
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    right: 0;
+
+}
+
+.bottom-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+
+}
+
+.bottom-card-content{
+    top:0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    padding:5rem;
+    flex-direction: column;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+}   
+
+.bottom-card-title{
+    font-weight: bold;
+    font-size: 2rem ;
+}
+
+
+@media screen and (max-width : 950px) {
+    
+    .home-container{
+        flex-direction: column;
+    }
+
+    .bottom-card-container{
+        width: 100vw;
+    }
+}

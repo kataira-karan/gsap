@@ -1,0 +1,16 @@
+.overlays-container{
+    position: relative;
+}
+
+.top-overlays-container{
+    position: absolute;
+    display: flex;
+}
+
+.top-overlay{
+    background-color: white;
+    z-index: 1;
+    margin: 0;
+    border:none;
+    padding: 0;
+}

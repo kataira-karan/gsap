@@ -1,0 +1,14 @@
+.home-container{
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+
+@media screen and (max-width : 950px) {
+    
+    .home-container{
+        flex-direction: column;
+    }
+}

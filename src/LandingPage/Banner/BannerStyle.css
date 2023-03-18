@@ -1,0 +1,15 @@
+.banner-container{
+    height: 35vh;
+    padding:3rem;
+}
+
+
+.banner-title{
+    font-size: 2rem;
+    color: white;
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+    z-index: 10;
+    mix-blend-mode: difference;
+}
